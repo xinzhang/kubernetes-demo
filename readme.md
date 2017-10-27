@@ -26,3 +26,10 @@ minikube dashboard
 
 minikube service <servicename>
 
+## scale
+kubectl apply -f <foldername>\hpa.yml
+kubectl get hpa
+
+minikube addons list
+minikube addons enable heapster
+
